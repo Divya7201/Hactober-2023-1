@@ -1,0 +1,28 @@
+// Linear search cpp program
+
+#include<iostream>
+using namespace std;
+int main(){
+int n;
+int arr[n];
+cout<<"enter size of array";
+cin>>n;
+for(int i=0;i<n;i++){
+cout<<"enter element"<<i+1<<" : ";
+cin>>arr[i];
+}
+int ele;
+cout<<"enter element to search ";
+cin>>ele;
+int m=-1;
+for(int i-0;i<n;i++){
+if(arr[i]==ele){
+m =1;
+cout<<ele<<" at index "<<i<<endl;
+}
+}
+if(m==-1){
+cout<<"element not present"<<endl;
+}
+return 0;
+}
